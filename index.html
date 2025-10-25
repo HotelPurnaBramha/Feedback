@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You for Visiting</title>
+  <title>Redirecting...</title>
 
   <!-- Redirect after 4 seconds -->
   <meta http-equiv="refresh" content="4;url=https://www.google.com/maps/place/PurnaBramha/@15.9825644,73.6784911,17z/data=!4m8!3m7!1s0x3bc0090b9250f9ab:0xd9fce0773a8c5736!8m2!3d15.9825644!4d73.681066!9m1!1b1!16s%2Fg%2F11fjw3v_f1?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D">
@@ -13,56 +13,20 @@
       margin: 0;
       height: 100vh;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #ffb347, #ffcc33);
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: #333;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1.2em;
-      color: #222;
-    }
-
-    .loader {
-      margin-top: 20px;
-      border: 5px solid #f3f3f3;
-      border-top: 5px solid #555;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      animation: spin 1s linear infinite;
+      background: #fff; /* plain white background */
     }
 
     img {
-      max-width: 80%;
+      max-width: 100%;
       height: auto;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      display: block;
     }
   </style>
 </head>
 <body>
-  <h1>Thanks for visiting PurnaBramha!</h1>
-  <p>You’ll be redirected to our Google Maps page shortly...</p>
-
-  <!-- Display your uploaded image -->
+  <!-- Display only the image -->
   <img src="Picsart_25-10-25_15-59-01-867.png" alt="PurnaBramha">
-
-  <div class="loader"></div>
 </body>
 </html>
